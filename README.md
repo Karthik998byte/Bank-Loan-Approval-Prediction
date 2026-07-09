@@ -1,4 +1,7 @@
-# 🏦 Loan Approval Prediction
+# 🏦 Bank Loan Approval Prediction
+
+🚀 Live Demo:
+https://bank-loan.streamlit.app/
 
 ## Overview
 
@@ -43,13 +46,28 @@ This project predicts whether a loan application will be approved using Machine 
 
 ```
 Loan_Approval_Project/
+
+│
+├── artifacts/
+│ └── loan_approval_model.pkl
+│
+├── dataset/
+│ └── loan_classification.csv
+│
+├── screenshots/
+│ ├── dashboard.png
+│ ├── approved.png
+│ ├── rejected.png
+│ ├── high_risk.png
+│ └── low_risk.png
 │
 ├── Loan_Approval.ipynb
+│
 ├── app.py
+│
 ├── requirements.txt
-├── README.md
-└── artifacts/
-    └── loan_approval_model.pkl
+│
+└── README.md
 ```
 
 ## Run the Project
@@ -65,6 +83,12 @@ Run the Streamlit application:
 ```bash
 streamlit run app.py
 ```
+## Deployment
+
+The Machine Learning model is deployed using Streamlit Community Cloud.
+
+Live Application:
+https://bank-loan.streamlit.app/
 
 ## Author
 
